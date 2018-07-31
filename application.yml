@@ -1,5 +1,14 @@
 ﻿spring:
+  profiles:
+    active: 
+    - dev
+---
+spring:
   profiles: dev
     application: 
-        name: microservicecloud-config-casit-dev
-
+        name : microservicecloud-config-casit-dev
+---
+spring:
+  profiles: test
+    application: 
+        name : microservicecloud-config-casit-test
