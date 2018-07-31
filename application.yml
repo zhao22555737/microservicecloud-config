@@ -1,5 +1,5 @@
 ﻿spring:
   profiles: dev
     application: 
-        name :microservicecloud-config-casit-dev
+        name: microservicecloud-config-casit-dev
 
